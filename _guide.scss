@@ -1,4 +1,4 @@
-/* Styleguide for Radcircle Plus */
+/* Styleguide for Radcircle */
 
 
 	/* ORDER */
@@ -6,11 +6,10 @@
 		/* FONT SIZES */
 		/* COLORS */
 		/* IMAGE COVERING */
+		/* TRANSITIONS */
 		/* GRADIENTS */
 		/* RESETS */
 		/* NOTES */
-
-
 
 /* ========== */
 /* FONTS */
@@ -24,7 +23,7 @@ $fontSSP: 'Source Sans Pro', Helvetica 'Neue', Helvetica, Arial, sans-serif;
 
 
 .smoothtext {
-	/* use to optimize text */
+	/* Use to optimize text */
 	/* !! use @extend rather than use as a drop in .class */
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased
@@ -52,14 +51,14 @@ $hhrb: 		 #F6F792;
 .reddit 	{color: #cee3f8}
 .googleplus {color: #dd4b39}
 
-.e 		{background-color: #EA2E49;}  /* Pink BG  */
-.e-t 	{color: #EA2E49;}  /* Pink */
+.e 			{background-color: #EA2E49;}  /* Pink BG  */
+.e-t 		{color: #EA2E49;}  /* Pink */
 
-.s 		{background-color: #77C4D3;}  /* Blue BG */
-.s-t 	{color: #77C4D3;}  /* Blue */
+.s 			{background-color: #77C4D3;}  /* Blue BG */
+.s-t 		{color: #77C4D3;}  /* Blue */
 
-.hhr 	{background-color: #f6f792;} /* Yellow BG */
-.hhr-t 	{color: #f6f792;} /* Yellow */
+.hhrb 		{background-color: #f6f792;} /* Yellow BG */
+.hhrb-t 	{color: #f6f792;} /* Yellow */
 
 
 /* ========== */
@@ -73,6 +72,16 @@ $hhrb: 		 #F6F792;
     -o-background-size: cover;
     background-size: cover;
 }
+
+/* ========== */
+/* TRANSITIONS */
+/* ========== */
+
+$tortoise: 	1.5s all;
+$slow: 		1s all;
+$medium:	0.5s all;
+$fast: 		0.25s all;
+$cheetah: 	.125s all;
 
 /* ========== */
 /* GRADIENTS */
