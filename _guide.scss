@@ -1,4 +1,4 @@
-/* Styleguide for Radcircle */
+/* Styleguide for Radcircle 2 Plus */
 
 
 	/* ORDER */
@@ -22,12 +22,8 @@
 $fontSSP: 'Source Sans Pro', Helvetica 'Neue', Helvetica, Arial, sans-serif;
 
 
-.smoothtext {
-	/* Use to optimize text */
-	/* !! use @extend rather than use as a drop in .class */
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased
-}
+.smoothtext /* !! optimize text by using @extend rather than use as a drop in .class */
+{text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased}
 
 
 /* ========== */
@@ -77,11 +73,11 @@ $hhrb: 		 #F6F792;
 /* TRANSITIONS */
 /* ========== */
 
-$tortoise: 	1.5s all;
+$x-slow: 	1.5s all;
 $slow: 		1s all;
 $medium:	0.5s all;
 $fast: 		0.25s all;
-$cheetah: 	.125s all;
+$x-fast: 	.125s all;
 
 /* ========== */
 /* GRADIENTS */
@@ -105,7 +101,7 @@ $cheetah: 	.125s all;
 /* ========== */
 
 body {
-	/* Standardizes font size */
+	/* Standardizes font size to 1 em = 10px */
 	font-size: 62.5% !important;
 }
 
