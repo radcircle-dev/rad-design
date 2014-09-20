@@ -15,15 +15,23 @@
 /* FONTS */
 /* ========== */
 
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,900|Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Sacramento);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,900);
+
+/* &VARIABLES */
 
 
 /* Source Sans Pro */
-$fontSSP: 'Source Sans Pro', Helvetica 'Neue', Helvetica, Arial, sans-serif;
+$stdSSP: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stdLato: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stdMont: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stdSerif: "Noto Serif", 'Times New Roman', serif;
 
 
 .smoothtext /* !! optimize text by using @extend rather than use as a drop in .class */
-{text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased}
+{text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased;}
 
 
 /* ========== */
@@ -152,9 +160,18 @@ html, body {
 			*/
 
 
+/* centering hv unkown 
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-
-
+*/
 
 
 
